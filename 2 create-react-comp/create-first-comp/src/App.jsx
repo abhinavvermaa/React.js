@@ -1,5 +1,6 @@
-import kbutton from "./kbutton";
-
+import {Kbutton} from "./kbutton";
+import Hello from "./hello";
+import Random from "./random";
 
 function App()
 { 
@@ -7,7 +8,15 @@ function App()
     <h1>
       HELLO WORLD
     </h1>
-    <kbutton></kbutton>
+    <Hello></Hello>
+<Random></Random>
+<Random></Random>
+<Random></Random>
+<Random></Random>
+<Random></Random>
+<Random></Random>
+<Random></Random>
+<Random></Random>
   </div> 
 }
 

@@ -1,7 +1,5 @@
-function kbutton(){
+export function Kbutton(){
   return <button>
     like this 
     </button>
 }
-
-export default kbutton;
