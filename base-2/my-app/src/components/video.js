@@ -1,5 +1,6 @@
 import "./video.css";
-function Video({ title, channel = "sam coder",views,time }) {
+function Video({ title,id, channel = "sam coder",views,time , verified , children}) {
+ 
   return (
     <>
     <div className="container">
@@ -7,9 +8,12 @@ function Video({ title, channel = "sam coder",views,time }) {
         <img src="https://i.imgur.com/MK3eW3Am.jpg" alt="images" />
       </div>
       <div className="title">{title}</div>
-      <div className="channel">{channel}</div>
+     <div className="channel">{channel}{verified && "✅" }</div> 
       <div className="views">
         {views} views<span>.</span>{time}
+      </div>
+      <div>
+        {children}
       </div>
     </div>
     </>
