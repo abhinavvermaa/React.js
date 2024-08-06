@@ -1,6 +1,7 @@
 import "./video.css";
 function Video({ title,id, channel = "sam coder",views,time , verified , children}) {
  
+  console.log('render video');
   return (
     <>
     <div className="container">
