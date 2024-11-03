@@ -1,0 +1,97 @@
+/* Modal backdrop */
+.login-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* Modal container */
+.login-modal-content {
+  background-color: #fff;
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Form elements */
+.login-modal-content h2 {
+  margin-bottom: 16px;
+  font-size: 24px;
+  color: #333;
+}
+
+.login-modal-content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-modal-content input {
+  margin: 8px 0;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.login-modal-content button[type="submit"] {
+  margin-top: 12px;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-modal-content button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Toggle login/signup button */
+.login-modal-content button {
+  background: none;
+  border: none;
+  color: #007BFF;
+  cursor: pointer;
+  padding: 10px 0;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.login-modal-content button:hover {
+  text-decoration: underline;
+}
+
+/* Close button */
+.close-button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #FF4C4C;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.close-button:hover {
+  background: #e63939;
+}
