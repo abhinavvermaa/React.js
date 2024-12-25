@@ -3,10 +3,10 @@ import Header from "../other/Header";
 import CreateTask from "../Other/CreateTask";
 import AllTask from "../Other/AllTask";
 
-const AdimDashboard = () => {
+const AdimDashboard = (props) => {
   return (
     <div className="h-screen w-full p-7">
-      <Header />
+      <Header changeUser={props.changeUser} />
       <CreateTask />
       <AllTask />
     </div>

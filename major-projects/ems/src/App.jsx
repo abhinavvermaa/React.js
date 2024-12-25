@@ -2,23 +2,24 @@ import React, { useContext } from 'react'
 import Login from './components/Auth/Login'
 import EmployeeDashboard from './components/Dashboard/EmployeeDashboard'
 import AdimDashboard from './components/Dashboard/AdimDashboard'
-import { getLocalStorage, setLocalStorage } from './utils/localStorage'
 import { useEffect,useState } from 'react'
 import { AuthContext } from './context/AuthProvider'
+import { setLocalStorage } from './utils/localStorage'
 const App = () => {
-  setLocalStorage()
   const [user, setUser] = useState(null)
+  const [loggedInUserData, setLoggedInUserData] = useState(null)
   const authData = useContext(AuthContext)
+  setLocalStorage()
+  useEffect(()=>{
+    const loggedInUser = localStorage.getItem('loggedInUser')
 
-  // useEffect(() => {
-  //   if(authData){
-  //     const loggedInUser = localStorage.getItem("loggedInUser")
-  //     if(loggedInUser){
-  //       setUser(loggedInUser.role)
-  //     }
-  //   }
-  // }, [authData])
-  // console.log(user);2:04min
+    if(loggedInUser){
+      const userData = JSON.parse(loggedInUser)
+      setUser(userData.role)
+      setLoggedInUserData(userData.data)
+      
+    }
+  },[])
   
 
 
@@ -26,9 +27,13 @@ const App = () => {
     if(email=='admin@me.com' && password == '123'){
       setUser('admin')
       localStorage.setItem('loggedInUser' , JSON.stringify({role:'admin'}))
-    }else if(authData && authData.employees.find((e)=>email == e.email && e.password == password)){
+    }else if(authData ){
+      const employee= authData.employees.find((e)=>email == e.email && e.password == password)
+      if(employee){
       setUser('employee')
-      localStorage.setItem('loggedInUser' , JSON.stringify({role:'employee'}))
+      setLoggedInUserData(employee)
+      localStorage.setItem('loggedInUser' , JSON.stringify({role:'employee',data:employee}))
+      }
       
     }
     else{
@@ -40,7 +45,7 @@ const App = () => {
   return (
     <>
       {!user ? <Login handleLogin = {handleLogin} /> : ''}
-      {user=='admin'?<AdimDashboard/> : <EmployeeDashboard />}
+      {user=='admin'?<AdimDashboard changeUser={setUser}/> : (user == 'employee' ?<EmployeeDashboard changeUser={setUser} data = {loggedInUserData}/>:null)}
       {/* <EmployeeDashboard /> */}
       {/* <AdimDashboard /> */}
     </>
