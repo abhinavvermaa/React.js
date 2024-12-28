@@ -1,20 +1,43 @@
-import React, { useState } from 'react'
+import React, { useState,useContext } from 'react'
 import NewTask from '../TaskList/NewTask'
+import { AuthContext } from '../../context/AuthProvider'
+
 
 const CreateTask = () => {
+
+  const [userData,setUserData] = useContext(AuthContext)
+
+
   const [taskTitle, setTaskTitle] = useState('')
   const [taskDescription, setTaskDescription] = useState('')
   const [taskDate, setTaskDate] = useState('')
   const [assignTo, setAssignTo] = useState('')
   const [category, setCategory] = useState('')
 
-  const [task, setTask] = useState({})
+  const [newTask, setNewTask] = useState({})
 
   const submitHandler = (e) =>{
-    e.preventDefault(e);
-    console.log("task created")
-    setTask({taskTitle,taskDescription,taskDate,category,active:false,NewTask:true,failed:true,completed:false})
-    console.log(localStorage.getItem('employees'))
+    e.preventDefault();
+    setNewTask({taskTitle,taskDescription,taskDate,category,active:false,newTask:true,failed:false,completed:false})
+
+    const data = userData
+  
+    
+    data.forEach(function(elem){
+      if(assignTo == elem.firstname){
+        elem.tasks.push(newTask)
+        elem.taskCounts.newTask++ ;
+        
+      }
+    })
+    setUserData(data)
+    console.log(data);
+    // setTaskTitle('')
+    // setTaskDate('')
+    // setTaskDescription('')
+    // setAssignTo('')
+    // setCategory('')
+
   }
   return (
     <div className="p-5 bg-[#1c1c1c] mt-7 rounded">
