@@ -46,8 +46,6 @@ const App = () => {
     <>
       {!user ? <Login handleLogin = {handleLogin} /> : ''}
       {user=='admin'?<AdimDashboard changeUser={setUser}/> : (user == 'employee' ?<EmployeeDashboard changeUser={setUser} data = {loggedInUserData}/>:null)}
-      {/* <EmployeeDashboard /> */}
-      {/* <AdimDashboard /> */}
     </>
   )
 }

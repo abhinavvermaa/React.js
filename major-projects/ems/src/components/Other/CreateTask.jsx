@@ -14,36 +14,65 @@ const CreateTask = () => {
   const [assignTo, setAssignTo] = useState('')
   const [category, setCategory] = useState('')
 
-  const [newTask, setNewTask] = useState({})
+// const[newTask,setNewTask] = useState({})
+  // const submitHandler = (e) =>{
+  //   e.preventDefault();
+  //   setNewTask({taskTitle,taskDescription,taskDate,category,active:false,newTask:true,failed:false,completed:false})
 
-  const submitHandler = (e) =>{
-    e.preventDefault();
-    setNewTask({taskTitle,taskDescription,taskDate,category,active:false,newTask:true,failed:false,completed:false})
-
-    const data = userData
+  //   const data = userData
   
     
-    data.forEach(function(elem){
-      if(assignTo == elem.firstname){
-        elem.tasks.push(newTask)
-        elem.taskCounts.newTask++ ;
+  //   data.forEach(function(elem){
+  //     if(assignTo == elem.firstname){
+  //       elem.tasks.push(newTask)
+  //       elem.taskCounts.newTask++ ;
         
-      }
-    })
-    setUserData(data)
-    console.log(data);
-    // setTaskTitle('')
-    // setTaskDate('')
-    // setTaskDescription('')
-    // setAssignTo('')
-    // setCategory('')
+  //     }
+  //   })
+  //   setUserData(data)
+  //   console.log(data);
+    
 
+  // }
+  const submitHandler = (e) => {
+    e.preventDefault();
+  
+    // Create the task directly
+    const task = {
+      taskTitle,
+      taskDescription,
+      taskDate,
+      category,
+      active: false,
+      newTask: true,
+      failed: false,
+      completed: false,
+    };
+  
+    const data = [...userData]; // Create a copy of the current userData for immutability
+  
+    data.forEach((elem) => {
+      if (assignTo === elem.firstname) {
+        elem.tasks.push(task); // Push the newly created task directly
+        elem.taskCounts.newTask++;
+      }
+    });
+  
+    setUserData(data); // Update the userData state
+    console.log(data);
+  };
+  const empty = ()=>{
+    setTaskTitle('')
+    setTaskDate('')
+    setTaskDescription('')
+    setAssignTo('')
+    setCategory('')
   }
   return (
     <div className="p-5 bg-[#1c1c1c] mt-7 rounded">
         <form onSubmit={(e)=>{
           submitHandler(e)
-
+          empty(e);
         }} className="flex w-full flex-wrap items-start justify-between">
           <div className="w-1/2">
             <div>
