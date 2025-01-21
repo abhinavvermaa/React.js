@@ -10,7 +10,7 @@ function Profile() {
       </div>
     )
   }
-  return <div> welcome {user.username}</div>
+  return <div> user:  {user.username} password : {user.password}</div>
   }
 
 export default Profile
