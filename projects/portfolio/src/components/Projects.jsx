@@ -12,10 +12,11 @@ const Projects = () => {
             <img src="./assets/projects/project.png" alt="" />
           </div>
           <div className="">
-            <h1 className="text-2xl font-semibold ">Web EMS </h1>
+            <h1 className="text-2xl font-semibold ">Seamless Shopping Website </h1>
             <p className="text-xl">
-              This is a project made to learn the latest languages by building
-              an app.
+            Developed an e-commerce
+platform with functionalities like login/signup and add-to-cart.
+Designed for intuitive navigation and user experience.
             </p>
           </div>
           
@@ -23,19 +24,19 @@ const Projects = () => {
               React
             </p>
             <p className="m-3 px-3 border-transparent rounded-2xl bg-blue-400 text-black">
-              express
+              Bootstrap CSS
             </p>
             <p className="m-3 px-3 border-transparent rounded-2xl bg-blue-400 text-black">
               Node
             </p>
             <p className="m-3 px-3 border-transparent rounded-2xl bg-blue-400 text-black">
-              Node
+              React-Router
             </p></div>
           
           <div className="flex justify-center">
             <a
               className="m-4 py-1 px-10 bg-gray-300  border rounded-2xl text-black "
-              href="https://github.com/abhinavvermaa"
+              href="https://github.com/abhinavvermaa/React.js/tree/main/projects/Seamless-Shopping"
               target="_blank"
             >
               source code
@@ -47,10 +48,10 @@ const Projects = () => {
             <img src="./assets/projects/project.png" alt="" />
           </div>
           <div>
-            <h1 className="text-2xl font-semibold ">Web EMS </h1>
+            <h1 className="text-2xl font-semibold ">Employee Management System (EMS) </h1>
             <p className="text-xl">
-              This is a project made to learn the latest languages by building
-              an app.
+            Developed an Employee Management System using React.js and
+            Tailwind CSS. 
             </p>
           </div>
           <div className="flex flex-row flex-wrap">
@@ -58,16 +59,16 @@ const Projects = () => {
               React
             </p>
             <p className="m-3 px-3 border-transparent rounded-2xl bg-blue-400 text-black">
-              express
+              Tailwind CSS
             </p>
             <p className="m-3 px-3 border-transparent rounded-2xl bg-blue-400 text-black">
-              Node
+              Context Api
             </p>
           </div>
           <div className="flex justify-center">
             <a
               className="m-4 py-1 px-10 bg-gray-300  border rounded-2xl text-black "
-              href="https://github.com/abhinavvermaa"
+              href="https://github.com/abhinavvermaa/React.js/tree/main/major-projects/ems"
               target="_blank"
             >
               source code
@@ -79,10 +80,11 @@ const Projects = () => {
             <img src="./assets/projects/project.png" alt="" />
           </div>
           <div>
-            <h1 className="text-2xl font-semibold ">Web EMS </h1>
+            <h1 className="text-2xl font-semibold ">Currency Converter App</h1>
             <p className="text-xl">
-              This is a project made to learn the latest languages by building
-              an app.
+            Created a dynamic app utilizing a
+currency API and custom React hooks, featuring an intuitive UI for
+real-time currency conversion.
             </p>
           </div>
           <div className="flex flex-row flex-wrap">
@@ -90,16 +92,16 @@ const Projects = () => {
               React
             </p>
             <p className="m-3 px-3 border-transparent rounded-2xl bg-blue-400 text-black">
-              express
+              Tailwind CSS
             </p>
             <p className="m-3 px-3 border-transparent rounded-2xl bg-blue-400 text-black">
-              Node
+              Context-Api
             </p>
           </div>
           <div className="flex justify-center">
             <a
               className="m-4 py-1 px-10 bg-gray-300  border rounded-2xl text-black "
-              href="https://github.com/abhinavvermaa"
+              href="https://github.com/abhinavvermaa/React.js/tree/main/React-pro/06currencyconvereter"
               target="_blank"
             >
               source code
