@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Seamless Shopping Website",
+    "description": "Developed an e-commerce platform with functionalities like login/signup and add-to-cart. Designed for intuitive navigation and user experience.",
+    "technologies": ["React", "Bootstrap CSS", "Node", "React-Router"],
+    "sourceCode": "https://github.com/abhinavvermaa/React.js/tree/main/projects/Seamless-Shopping"
+  },
+  {
+    "title": "Employee Management System (EMS)",
+    "description": "Developed an Employee Management System using React.js and Tailwind CSS.",
+    "technologies": ["React", "Tailwind CSS", "Context API"],
+    "sourceCode": "https://github.com/abhinavvermaa/React.js/tree/main/major-projects/ems"
+  },
+  {
+    "title": "Currency Converter App",
+    "description": "Created a dynamic app utilizing a currency API and custom React hooks, featuring an intuitive UI for real-time currency conversion.",
+    "technologies": ["React", "Tailwind CSS", "Context API"],
+    "sourceCode": "https://github.com/abhinavvermaa/React.js/tree/main/React-pro/06currencyconvereter"
+  }
+]
