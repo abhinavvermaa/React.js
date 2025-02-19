@@ -1,10 +1,19 @@
+import Banners from "./components/Banners"
+import Deals from "./components/Deals"
+import Itemds from "./components/Itemds"
+import Navbar from "./components/Navbar"
+import NewArrivals from "./components/NewArrivals"
 
 function App() {
 
   return (
     <>
-        <div className="text-2xl font-bold bg-red-200">
-          hello
+        <div className="">
+          <Navbar />
+          <Banners />
+          <Itemds />
+          <Deals />
+          <NewArrivals />
         </div>
     </>
   )
