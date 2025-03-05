@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Cotton Linen Stripes: Cardinal",
+    "category": "Women Boyfriend Shirts",
+    "price": 1699,
+    "currency": "₹",
+    "image": "./logo/demo.png"
+  },
+  {
+    "id": 2,
+    "name": "Floral Print Shirt",
+    "category": "Women Casual Wear",
+    "price": 1499,
+    "currency": "₹",
+    "image": "/logo/demo.png"
+  },
+  {
+    "id": 2,
+    "name": "Floral Print Shirt",
+    "category": "Women Casual Wear",
+    "price": 1499,
+    "currency": "₹",
+    "image": "/logo/demo.png"
+  },
+  {
+    "id": 2,
+    "name": "Floral Print Shirt",
+    "category": "Women Casual Wear",
+    "price": 1499,
+    "currency": "₹",
+    "image": "/logo/demo.png"
+  },
+  {
+    "id": 2,
+    "name": "Floral Print Shirt",
+    "category": "Women Casual Wear",
+    "price": 1499,
+    "currency": "₹",
+    "image": "/logo/demo.png"
+  },
+  {
+    "id": 2,
+    "name": "Floral Print Shirt",
+    "category": "Women Casual Wear",
+    "price": 1499,
+    "currency": "₹",
+    "image": "/logo/demo.png"
+  },
+  {
+    "id": 2,
+    "name": "Floral Print Shirt",
+    "category": "Women Casual Wear",
+    "price": 1499,
+    "currency": "₹",
+    "image": "/logo/demo.png"
+  },
+  {
+    "id": 2,
+    "name": "Floral Print Shirt",
+    "category": "Women Casual Wear",
+    "price": 1499,
+    "currency": "₹",
+    "image": "/logo/demo.png"
+  },
+  {
+    "id": 2,
+    "name": "Floral Print Shirt",
+    "category": "Women Casual Wear",
+    "price": 1499,
+    "currency": "₹",
+    "image": "/logo/demo.png"
+  },
+  {
+    "id": 2,
+    "name": "Floral Print Shirt",
+    "category": "Women Casual Wear",
+    "price": 1499,
+    "currency": "₹",
+    "image": "/logo/demo.png"
+  }
+]

@@ -23,14 +23,14 @@ const Banners = () => {
   };
 
   return (
-    <div className="flex-row items-center w-full  sm:px-20  py-5 p-2">
+    <div className="flex-row items-center w-full  sm:px-20  py-5 p-2 border-transparent">
       <Slider {...settings}>
         {banners.map((banner) => (
           <div key={banner.id} className="flex justify-center">
             <img
               src={banner.image}
               alt={`Banner ${banner.id}`}
-              className="w-full rounded-xl shadow-lg"
+              className="w-full rounded-xl drop-shadow-lg "
             />
           </div>
         ))}
