@@ -9,7 +9,7 @@ const Deals = () => {
       <p className=''>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque nobis delectus esse quasi.</p>
       <button className='bg-black p-3 border-transparent rounded-2xl text-white my-2'>BUY NOW</button>
       <h2 className='font-semibold text-xl'>Hurry, Before it's too late</h2>
-      <CountdownTimer targetDate='2025-03-1'/></div>
+      <CountdownTimer targetDate='2025-04-1'/></div>
       <div className='m-10'>
         <img src=".\offer\75d.jpg" className=" rounded-lg w-full "alt="" />
       </div>

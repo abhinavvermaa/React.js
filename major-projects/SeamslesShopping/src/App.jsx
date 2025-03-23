@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import Assurance from "./components/Assurance";
 import Products from "./components/Products";
 import Shop from "./components/Shop";
+import Bagsummary from "./components/Bagsummary";
 
 function HomePage() {
   return (
@@ -31,6 +32,8 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} /> {/* Home Page Components */}
         <Route path="/shop" element={<Shop />} /> {/* Shop Page */}
+        <Route path="/Bagsummary" element={<Bagsummary />} /> {/* Shop Page */}
+
       </Routes>
     </Router>
   );
