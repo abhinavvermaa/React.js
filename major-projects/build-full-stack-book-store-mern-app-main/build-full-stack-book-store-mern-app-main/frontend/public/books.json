@@ -198,6 +198,304 @@
       "coverImage": "book-20.png",
       "oldPrice": 24.99,
       "newPrice": 14.99
-    }
-  ]
-  
+    },
+    {
+      "_id": 21,
+      "title": "One Piece",
+      "description": "As a child, Monkey D. Luffy dreamed of becoming King of the Pirates. But his life changed when he accidentally gained the power to stretch like rubber...at the cost of never being able to swim again! Years, later, Luffy sets off in search of the One Piece, said to be the greatest treasure in the world...",
+      "category": "comic",
+      "trending": false,
+      "coverImage": "book-21.jpg",
+      "oldPrice": 24.99,
+      "newPrice": 15.99
+    },
+    {
+      "_id": 22,
+      "title": "Hello Neighbor",
+      "description": "Lock your doors! From the creators of the blockbuster horror video game Hello neighbour comes the story that started it all. Unravel the mystery in this gripping prequel novel!",
+      "category": "comic",
+      "trending": false,
+      "coverImage": "book-22.jpg",
+      "oldPrice": 22.99,
+      "newPrice": 10.99
+    },
+    {
+      "_id": 23,
+      "title": "Naruto",
+      "description": "Naruto is a young shinobi with an incorrigible knack for mischief. He's got a wild sense of humor, but Naruto is completely serious about his mission to be the world's greatest ninja!",
+      "category": "comic",
+      "trending": false,
+      "coverImage": "book-23.jpg",
+      "oldPrice": 30.99,
+      "newPrice": 20.99
+    },
+    {
+      "_id": 24,
+      "title": "Bleach",
+      "description": "Ichigo Kurosaki never asked for the ability to see ghosts--he was born with the gift. When his family is attacked by a Hollow--a malevolent lost soul--Ichigo becomes a Soul Reaper, dedicating his life to protecting the innocent and helping the tortured spirits themselves find peace!",
+      "category": "comic",
+      "trending": false,
+      "coverImage": "book-24.jpg",
+      "oldPrice": 20.99,
+      "newPrice": 16.99
+    },
+    {
+      "_id": 25,
+      "title": "Hunter X Hunter",
+      "description": "Hunters are a special breed, dedicated to tracking down treasures, magical beasts, and even other people. But such pursuits require a license, and less than one in a hundred thousand can pass the grueling qualification exam. Those who do pass gain access to restricted areas, amazing stores of information, and the right to call themselves Hunters.",
+      "category": "comic",
+      "trending": false,
+      "coverImage": "book-25.jpg",
+      "oldPrice": 27.99,
+      "newPrice": 20.99
+    },
+    {
+      "_id": 26,
+      "title": "Black Clover",
+      "description": "Asta is a young boy who dreams of becoming the greatest mage in the kingdom. Only one problem--he can't use any magic! Luckily for Asta, he receives the incredibly rare five-leaf clover grimoire that gives him the power of anti-magic. Can someone who can't use magic really become the Wizard King? One thing's for sure--Asta will never give up!",
+      "category": "comic",
+      "trending": false,
+      "coverImage": "book-26.jpg",
+      "oldPrice": 19.99,
+      "newPrice": 21.99
+    },
+    {
+      "_id": 27,
+      "title": "Food War",
+      "description": "Soma Yukihira's old man runs a small family restaurant in the less savory end of town. Aiming to one day surpass his father's culinary prowess, Soma hones his skills day in and day out until one day, out of the blue, his father decides to enroll Soma in a classy culinary school! Can Soma really cut it in a place that prides itself on a 10 percent graduation rate? And can he convince the beautiful, domineering heiress of the school that he belongs there at all?!",
+      "category": "comic",
+      "trending": false,
+      "coverImage": "book-27.jpg",
+      "oldPrice": 24.99,
+      "newPrice": 20.99
+    },
+    {
+      "_id": 28,
+      "title": "My Hero Academia",
+      "description": "What would the world be like if 80 percent of the population manifested superpowers called Quirks  Heroes and villains would be battling it out everywhere! Being a hero would mean learning to use your power, but where would you go to study? The Hero Academy of course! But what would you do if you were one of the 20 percent who were born Quirkless?",
+      "category": "comic",
+      "trending": false,
+      "coverImage": "book-28.jpg",
+      "oldPrice": 18.99,
+      "newPrice": 24.99
+    },
+    {
+      "_id": 29,
+      "title": "Case Closed",
+      "description": "Carlos Serrano has never solved a mystery in his life. But when Carlos's mom gets sick with a flu on the morning of an investigation that could save her failing detective agency, Carlos takes on the case.",
+      "category": "comic",
+      "trending": false,
+      "coverImage": "book-29.jpg",
+      "oldPrice": 28.99,
+      "newPrice": 26.99
+    },
+    {
+      "_id": 30,
+      "title": "Blue Exorcist",
+      "description": "Raised by Father Fujimoto, a famous exorcist, Rin Okumura never knew his real father. One day a fateful argument with Father Fujimoto forces Rin to face a terrible truth--the blood of the demon lord Satan runs in Rin's veins!",
+      "category": "comic",
+      "trending": false,
+      "coverImage": "book-30.jpg",
+      "oldPrice": 20.99,
+      "newPrice": 14.99
+    },
+    {
+      "_id": 31,
+      "title": "How to Analyze, Understand, and Predict People's Emotions, Thoughts, Intentions, and Behaviors ",
+      "description": "Read People Like a Book isn't a normal book on body language of facial expressions. Yes, it includes all of those things, as well as new techniques on how to truly detect lies in your everyday life, but this book is more about understanding human psychology and nature.",
+      "category": "Business",
+      "trending": false,
+      "coverImage": "book-31.jpg",
+      "oldPrice": 27.99,
+      "newPrice": 22.99
+    },
+    {
+      "_id": 32,
+      "title": "Mastery",
+      "description": "Around the globe, people are facing the same problem - that we are born as individuals but are forced to conform to the rules of society if we want to succeed. The author debunks the prevailing mythology of success and presents a radical new way to greatness. It also draws on interviews with world leaders.",
+      "category": "Business",
+      "trending": false,
+      "coverImage": "book-32.jpg",
+      "oldPrice": 24.99,
+      "newPrice": 20.99
+    },
+    {
+      "_id": 33,
+      "title": "The Concise Laws of Human Nature ",
+      "description": "From the #1 New York Times-bestselling author of The 48 Laws of Power comes the concise edition of the definitive book on decoding the behaviour of the people around you.",
+      "category": "Business",
+      "trending": false,
+      "coverImage": "book-33.jpg",
+      "oldPrice": 28.99,
+      "newPrice": 26.99
+    },
+    {
+      "_id": 34,
+      "title": "The Lean Startup ",
+      "description": "First published in the year 2011, The Lean Startup: How Constant Innovation Creates Radically Successful Businesses became a New York Times Bestseller.",
+      "category": "Business",
+      "trending": false,
+      "coverImage": "book-34.jpg",
+      "oldPrice": 23.99,
+      "newPrice": 18.99
+    },
+    {
+      "_id": 35,
+      "title": "Financial Modeling Handbook ",
+      "description": "This book is the ultimate tool for young finance professionals & aspirants looking to break into the financial industry. Learn to build financial models from scratch with our step-by-step guide. This book is not a theory book, it's a hands-on boot camp where you work on a real company and build a real financial model as you read. ",
+      "category": "Business",
+      "trending": false,
+      "coverImage": "book-35.jpg",
+      "oldPrice": 19.99,
+      "newPrice": 12.99
+    },
+    {
+      "_id": 36,
+      "title": "White Nights",
+      "description": "Gives readers a taste of the Classics' huge range and diversity, with works from around the world and across the centuries - including fables, decadence, heartbreak, tall tales, satire, ghosts, battles and elephants.",
+      "category": "Fiction",
+      "trending": false,
+      "coverImage": "book-36.jpg",
+      "oldPrice": 24.99,
+      "newPrice": 18.99
+    },
+    {
+      "_id": 37,
+      "title": "Siddhartha",
+      "description": "Siddhartha is a novel by Hermann Hesse that deals with the spiritual journey of a boy known as Siddhartha from the Indian subcontinent during the time of Lord Buddha. In a very simple prose, Hesse has conveyed a very profound message for all seekers.",
+      "category": "Fiction",
+      "trending": false,
+      "coverImage": "book-37.jpg",
+      "oldPrice": 18.99,
+      "newPrice": 23.99
+    },
+    {
+      "_id": 38,
+      "title": "Vegetarian, The: A Novel",
+      "description": "Yeong-hye and her husband are ordinary people. He is an office worker with moderate ambitions and mild manners; she is an uninspired but dutiful wife. The acceptable flatline of their marriage is interrupted when Yeong-hye, seeking a more 'plant-like' existence, decides to become a vegetarian, prompted by grotesque recurring nightmares.",
+      "category": "Fiction",
+      "trending": false,
+      "coverImage": "book-38.jpg",
+      "oldPrice": 28.99,
+      "newPrice": 25.99
+    },
+    {
+      "_id": 39,
+      "title": "The Housemaid",
+      "description": "The most gripping thriller of the year, The Housemaid is an international digital bestseller about the shockingly dark heart of a seemingly perfect family . . .",
+      "category": "Fiction",
+      "trending": false,
+      "coverImage": "book-39.jpg",
+      "oldPrice": 25.99,
+      "newPrice": 19.99
+    },
+    {
+      "_id": 40,
+      "title": "The Fountainhead Rand, Ayn and Peikoff, Leonard",
+      "description": "The revolutionary literary vision that sowed the seeds of Objectivism, Ayn Rand's groundbreaking philosophy, and brought her immediate worldwide acclaim.",
+      "category": "Fiction",
+      "trending": false,
+      "coverImage": "book-40.jpg",
+      "oldPrice": 29.99,
+      "newPrice": 23.99
+    },
+    {
+      "_id": 41,
+      "title": "Suicide Forest",
+      "description": "From USA Today and #1 Amazon bestselling author Jeremy Bates comes a tale of mystery and horror set in Japan's ancient Suicide Forest, a place that is easy to enter but, for some, impossible to leave. Goodreads Choice Awards finalist for horror. For fans of Stephen King.",
+      "category": "Horror",
+      "trending": false,
+      "coverImage": "book-41.jpg",
+      "oldPrice": 26.99,
+      "newPrice": 20.99
+    },
+    {
+      "_id": 42,
+      "title": "Ghost of Silent Hills",
+      "description": "A perfect blend of mystery, history, and the supernatural!",
+      "category": "Horror",
+      "trending": false,
+      "coverImage": "book-42.jpg",
+      "oldPrice": 19.99,
+      "newPrice": 15.99
+    },
+    {
+      "_id": 43,
+      "title": "Tales of Mystery and Horror (for Kids)",
+      "description": "Tales of Mystery and Horror is an excellent set of short stories ranging from unsolvable mysteries, dark comedy, to gothic horror and tales of the supernatural. It takes the reader on a journey of shady lands, wild imagination, and suspenseful plots. ",
+      "category": "Horror",
+      "trending": false,
+      "coverImage": "book-43.jpg",
+      "oldPrice": 27.99,
+      "newPrice": 22.99
+    },
+    {
+      "_id": 44,
+      "title": "House of Leaves",
+      "description": "Simultaneously reads like a thriller and like a strange, dreamlike excursion into the subconscious.",
+      "category": "Horror",
+      "trending": false,
+      "coverImage": "book-44.jpg",
+      "oldPrice": 19.99,
+      "newPrice": 16.99
+    },
+    {
+      "_id": 45,
+      "title": "Tales of Horror",
+      "description": "Prepare to immerse yourself into the heart of darkness as Nikesh Murali, Commonwealth Short Story Prize-winning author and creator of India's most critically acclaimed horror podcast Indian Noir weaves an unforgettable tapestry of bone-chilling scares and unrelenting terror. Whether you're a seasoned horror enthusiast or a newcomer to the genre, this anthology is sure to satisfy your cravings for all things terrifying. ",
+      "category": "Horror",
+      "trending": false,
+      "coverImage": "book-45.jpg",
+      "oldPrice": 18.99,
+      "newPrice": 15.99
+    },
+    {
+      "_id": 46,
+      "title": "The Immortals of Meluha",
+      "description": "The inhabitants of that period called it the land of Meluha ? a near perfect empire created many centuries earlier by Lord Ram, one of the greatest monarchs that ever lived.",
+      "category": "Adventure",
+      "trending": false,
+      "coverImage": "book-46.jpg",
+      "oldPrice": 28.99,
+      "newPrice": 24.99
+    },
+    {
+      "_id": 47,
+      "title": "Snail and the Whale",
+      "description": "When a tiny snail meets a humpback whale, the two travel together to far-off lands. It's a dream come true for the snail, who has never left home before. But when the whale swims too close to shore, will the snail be able to save her new friend?",
+      "category": "Adventure",
+      "trending": false,
+      "coverImage": "book-47.jpg",
+      "oldPrice": 18.99,
+      "newPrice": 16.99
+    },
+    {
+      "_id": 48,
+      "title": "Malgudi Adventures ",
+      "description": "After the stupendous success of Malgudi Schooldays, R.K. Narayan’s chronicle of the escapades of Swami and his friends, comes Malgudi Adventures, which contains more delightful stories of children’s adventures in the magical South Indian small town of Malgudi.",
+      "category": "Adventure",
+      "trending": false,
+      "coverImage": "book-48.jpg",
+      "oldPrice": 25.99,
+      "newPrice": 20.99
+    },
+    {
+      "_id": 49,
+      "title": "Adventure Classics Collection: Set of 4 Books",
+      "description": "Hop on a literary voyage into the heart of adventure, discovery, and the human spirit. Daniel Defoe's Robinson Crusoe tells the riveting tale of survival on a deserted island, while Robert Louis Stevenson's Treasure Island takes readers on a thrilling quest for buried riches. ",
+      "category": "Adventure",
+      "trending": false,
+      "coverImage": "book-49.jpg",
+      "oldPrice": 20.99,
+      "newPrice": 15.99
+    },
+    {
+      "_id": 50,
+      "title": "The Hidden Oracle",
+      "description": "Language Published: English",
+      "category": "Adventure",
+      "trending": false,
+      "coverImage": "book-50.jpg",
+      "oldPrice": 26.99,
+      "newPrice": 17.99
+    }]

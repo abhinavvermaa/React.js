@@ -1,7 +1,11 @@
 import React from "react";
-
+import TopSellers from "./TopSellers";
 const Shop = () => {
-  return <div>hi this i shop</div>;
+  return (
+    <div>
+      <TopSellers />
+    </div>
+  );
 };
 
 export default Shop;
